@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reg</string>
+    <string name="text">Создать аккаунт</string>
+    <string name="Text">Введите логин</string>
+    <string name="name">Введите почту</string>
+    <string name="naame">Введите пароль</string>
+    <string name="ttext">Регистрация</string>
+    <string name="Reg">Зарегистрироваться</string>
+    <string name="Enter">Войти</string>
+    <string name="EntertoAkk">Войдите в аккаунт</string>
+    <string name="enter">Войти</string>
+    <string name="tovary">Товары</string>
+    <string name="login_button_text">Войти в аккаунт</string>
+    <string name="Button">Посмотреть</string>
+    <string name="Text1">TextView</string>
+
+
+</resources>

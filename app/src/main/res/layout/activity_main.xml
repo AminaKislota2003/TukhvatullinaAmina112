@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A202C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/revalia"
+        android:text = "@string/text"
+        android:textColor="#E1FAFE"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#4fc3f7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#E1F5FE"
+        android:hint="@string/Text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#4fc3f7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#E1F5FE"
+        android:hint="@string/name"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#4fc3f7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#E1F5FE"
+        android:hint="@string/naame"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button2_reg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ttext"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#754668"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/link_to_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/enter"
+        android:textColor="#E1FAFE"
+        android:textSize="15sp" />
+
+</LinearLayout>
